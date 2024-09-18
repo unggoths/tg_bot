@@ -1,7 +1,7 @@
 import asyncio
 from aiogram import Bot, Dispatcher
 
-from app.handlers import router
+from app.handlers import router, CallbackQuery
 
 async def main():
     bot = Bot(token='7545582976:AAFrEdvIOkIn_tzE36JAEeHkf_L0jN8_J5o')
